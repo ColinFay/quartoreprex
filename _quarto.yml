@@ -1,0 +1,8 @@
+format:
+  revealjs:
+    menu: false
+    progress: false
+
+project:
+  render:
+    - "*.qmd"
