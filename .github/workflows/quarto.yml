@@ -1,5 +1,7 @@
 name: Run Quarto with R
 
+on: push
+
 jobs:
   run-rscript:
     runs-on: ubuntu-latest
