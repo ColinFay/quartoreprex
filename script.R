@@ -3,7 +3,7 @@ options(
 )
 future::plan(future::multisession)
 
-for (i in 1:50){
+for (i in 1:100){
   write(file = sprintf("test%s.qmd", i),
         sprintf("---
 title: 'test%s'
