@@ -1,7 +1,3 @@
-install.packages("pak")
-pak::pak("quarto")
-pak::pak("future")
-pak::pak("furrr")
 options(
   future.rng.onMisuse = "ignore"
 )

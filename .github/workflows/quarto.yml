@@ -22,5 +22,7 @@ jobs:
         with:
           r-version: 'latest'
 
+      - uses: r-lib/actions/setup-r-dependencies@v2
+
       - name: Run script.R
         run: Rscript script.R
